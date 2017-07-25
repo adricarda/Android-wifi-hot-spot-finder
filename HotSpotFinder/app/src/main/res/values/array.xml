@@ -1,0 +1,23 @@
+<resources>
+    <string-array name="listArray">
+        <item>Show all networks</item>
+        <item>Show only open networks</item>
+        <item>Show only protected networks</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+
+    <string-array name="theme_array">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="theme_index_array">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>

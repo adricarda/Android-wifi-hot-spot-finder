@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:title="Networks"
+        android:summary="Select the kind of networks to show"
+        android:key="networksType"
+        android:defaultValue="1"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues" />
+
+    <ListPreference
+        android:defaultValue="@string/theme_default"
+        android:entries="@array/theme_array"
+        android:entryValues="@array/theme_index_array"
+        android:key="@string/theme_key"
+        android:persistent="true"
+        android:summary="@string/theme_summary"
+        android:title="@string/theme_title"/>
+</PreferenceScreen>
